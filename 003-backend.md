@@ -109,4 +109,14 @@ To have it installed we can use
     mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -pExpenseApp@1 < /app/schema/backend.sql 
 ```
 
+This completes the web application configuration and at this moment, you should be able to access the applicaiton using fronend ip address from browser and should be able to add the expenses.
+
+![](Images/output.png)
+
+Note:
+1) Each and every tehc like node or java or go, will have a version that will have an active end of life and once it reaches, developer has to make the code upgrade using the standard documentation.
+
+2) Below picture shows you nodejs end of life wrt to release
+
+![](Images/eol.png)
 
