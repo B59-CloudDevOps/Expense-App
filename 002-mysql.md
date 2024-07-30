@@ -28,16 +28,6 @@ MySQL is an opensource sequel database to store data inside a structured table.
 
 ```
 
-#### You can check the new password working or not using the following command in MySQL.
-
-```
-    # mysql -uroot -pExpenseApp@1
-
-```
-
-
-This installs and configured the backend.
-
 !!!! It's always recommended to configure and set up your Database before your application comes up. If not application looks for the Database and app will fail. 
 
 Once you're done, proceed with the `003-backend.md`
