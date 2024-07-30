@@ -66,14 +66,14 @@ Our application servers static content and we need a web server to perform the s
 ```
     # vim /etc/nginx/default.d/expense.conf   ( empty the file if any and add the below content )
 
-    proxy_http_version 1.1;
+proxy_http_version 1.1;
 
-    location /api/ { proxy_pass http://localhost:8080/; }
+location /api/ { proxy_pass http://localhost:8080/; }
 
-    location /health {
-    stub_status on;
-    access_log off;
-    }
+location /health {
+stub_status on;
+access_log off;
+}
 ```
 
 Above reverse proxy config plays a critical role and you'll get this more when detailing with backend.
