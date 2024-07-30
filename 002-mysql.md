@@ -7,7 +7,7 @@ MySQL is an opensource sequel database to store data inside a structured table.
  Version of the MySQL to be installed is also an input from the developer.
 ```
 
-#### Install MySQL Server 
+#### Install MySQL Server  ( Version 8.0.x : As per Developer's choice )
 
 ```
     # dnf install mysql-server -y
