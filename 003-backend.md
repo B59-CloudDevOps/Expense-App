@@ -20,10 +20,10 @@ So, ensure you disable the default node repo and enable the needed repo.
 ```
     # dnf module list 
     # dnf module disable nodejs -y
-    # dnf module enable nodejs:18 -y 
+    # dnf module enable nodejs:20 -y 
 ```
 
-Now install Nodejs and you can see you that the downloaded version would be 18 
+Now install Nodejs and you can see you that the downloaded version would be 20
 
 ```
     # dnf install nodejs -y
