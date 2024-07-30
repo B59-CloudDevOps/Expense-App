@@ -1,13 +1,13 @@
 ### Backend
 
-Backend represents the actual applicaiton and is developed by using NodeJS.
+Backend represents the actual application and is developed by using NodeJS.
 
 !!! Technology to be used is dependent on the feature of the application and the skill set that the company has and it's purely developer driven. Cloud & DevOps Team have no control on it.
 
 Always ensure you check with the developers on the version to be installed.
 
 ```
-    Developer has defined that NodeJS >18 works for this application. 
+    Developer has defined that NodeJS >18 works for this application.  And we would be going with node 20 version
 
     !!! Nodejs code varies from version to version, so it's essential to know the version to be installed for 100% functionality of the application
 ```
