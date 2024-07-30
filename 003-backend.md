@@ -81,6 +81,13 @@ SyslogIdentifier=backend
 [Install]
 WantedBy=multi-user.target
 ```
+#### Change the permissions and ownership of the /app directory to expense user
+
+```
+    # chmod -R 775 /app
+    # chown -R expense:expense /app
+```
+
 
 Load the service.
 
