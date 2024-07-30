@@ -7,7 +7,7 @@ MySQL is an opensource sequel database to store data inside a structured table.
  Version of the MySQL to be installed is also an input from the developer.
 ```
 
-CentOS-8 Comes with MySQL 8 Version by default, However our application needs MySQL 5.7. So lets disable MySQL 8 version
+RHEL 9 Comes with MySQL 8 Version by default, However our application needs MySQL 5.7. So lets disable MySQL 8 version
 
 ```
     # dnf module disable mysql -y 
