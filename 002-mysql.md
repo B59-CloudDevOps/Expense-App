@@ -7,28 +7,10 @@ MySQL is an opensource sequel database to store data inside a structured table.
  Version of the MySQL to be installed is also an input from the developer.
 ```
 
-RHEL 9 Comes with MySQL 8 Version by default, However our application needs MySQL 5.7. So lets disable MySQL 8 version
-
-```
-    # dnf module disable mysql -y 
-```
-
-#### Setup the MySQL5.7 repo file
-
-```
-    # vim /etc/yum.repos.d/mysql.repo   ( and add the below repo details and this defines from where mysql has to be downloaded )
-
-    [mysql]
-    name=MySQL 5.7 Community Server
-    baseurl=http://repo.mysql.com/yum/mysql-5.7-community/el/7/$basearch/
-    enabled=1
-    gpgcheck=0
-```
-
 #### Install MySQL Server 
 
 ```
-    # dnf install mysql-community-server -y
+    # dnf install mysql-server -y
 
 ```
 
