@@ -84,7 +84,7 @@ Above reverse proxy config plays a critical role and you'll get this more when d
 
 ```
     # systemctl restart nginx 
-    # systemctl status            ( service should show up as running, if not, you'd have made some mistakes above )
+    # systemctl status nginx           ( service should show up as running, if not, you'd have made some mistakes above )
 ```
 
 
