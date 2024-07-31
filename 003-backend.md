@@ -117,6 +117,19 @@ To have it installed we can use
     # systemctl start backend
 ```
 
+### Final Step :
+ On your frontend server, update the backend ip address in the reverse proxy file ( replace localhost with backend-private-ip-address
+```
+proxy_http_version 1.1;
+
+location /api/ { proxy_pass http://localhost:8080/; }
+
+location /health {
+stub_status on;
+access_log off;
+}
+```
+
 This completes the web application configuration and at this moment, you should be able to access the application using fronend ip address from browser and should be able to add the expenses.
 
 ![](Images/output.png)
