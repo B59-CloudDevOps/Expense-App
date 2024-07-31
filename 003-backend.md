@@ -118,7 +118,7 @@ To have it installed we can use
 ```
 
 ### Final Step :
- On your frontend server, update the backend ip address in the reverse proxy file ( replace localhost with backend-private-ip-address
+ On your frontend server, update the backend ip address in the reverse proxy file ( replace localhost with backend-private-ip-address & restart nginx service )
 ```
 proxy_http_version 1.1;
 
