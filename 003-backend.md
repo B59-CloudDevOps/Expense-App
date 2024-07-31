@@ -95,7 +95,8 @@ For this application to work fully functional we need to load schema to the Data
 
 To have it installed we can use
 
-``` # dnf install mysql -y 
+```
+    # dnf install mysql-server -y
 ```
 
 ### Inject Schema from backend app 
