@@ -81,27 +81,15 @@ SyslogIdentifier=backend
 [Install]
 WantedBy=multi-user.target
 ```
-#### Change the permissions and ownership of the /app directory to expense user
+#### Change the permissions and ownership of the /app directory to "expense" service account. All the objects belongs to application should be owned by application user as a standard practice.
 
 ```
     # chmod -R 775 /app
     # chown -R expense:expense /app
 ```
 
-
-Load the service.
-
-```
-    # systemctl daemon-reload
-```
-
-Start the service.
-```
-    # systemctl enable backend 
-    # systemctl start backend
-```
-
 For this application to work fully functional we need to load schema to the Database. Defining schema is like define the structure of the table with rows & columns and this will essentially be coming up from the developers.
+
 
 #### We need to load the schema. To load schema we need to install mysql client.
 
@@ -116,7 +104,19 @@ To have it installed we can use
     mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -pExpenseApp@1 < /app/schema/backend.sql 
 ```
 
-This completes the web application configuration and at this moment, you should be able to access the applicaiton using fronend ip address from browser and should be able to add the expenses.
+#### Load the service.
+
+```
+    # systemctl daemon-reload
+```
+
+#### Start the service.
+```
+    # systemctl enable backend 
+    # systemctl start backend
+```
+
+This completes the web application configuration and at this moment, you should be able to access the application using fronend ip address from browser and should be able to add the expenses.
 
 ![](Images/output.png)
 
