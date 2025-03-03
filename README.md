@@ -18,4 +18,4 @@ On a high-level here is how the architecture and the flow looks like:
 
 ![](Images/Expense-Webapp.jpg)
 
-Once you create 3 servers using t3.micro on N.Virginia using the above image make sure you attach a security create named `b58-allow-all` that allows `all-inbound` from `0.0.0.0/0` proceed with `001-frontend`
+Once you create 3 servers using t3.micro on N.Virginia using the above image make sure you attach a security create named `b59-allow-all` that allows `all-inbound` from `0.0.0.0/0` proceed with `001-frontend`
