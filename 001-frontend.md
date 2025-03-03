@@ -14,7 +14,7 @@ Nginx will have the webframe for the web application.
 
 Our application servers static content and we need a web server to perform the same:
 
-#### Install Nging On The Top Of The Server-01
+#### Install Nginx On The Top Of The Server-01
 
 ```
     # dnf install nginx -y  
