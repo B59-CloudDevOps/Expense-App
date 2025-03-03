@@ -2,6 +2,8 @@
 
 MySQL is an opensource sequel database to store data inside a structured table. 
 
+Ensure you provision a new server for MYSQL and perform the below steps in on that server and ensure you name that server as MYSQL
+
 ```
  Where to chose sequesl or no-sequel database depends on the type of data, application and the useCase. It's purely developer driven.
  Version of the MySQL to be installed is also an input from the developer.
