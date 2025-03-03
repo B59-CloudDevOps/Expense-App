@@ -3,7 +3,7 @@
 MySQL is an opensource sequel database to store data inside a structured table. 
 
 ```
- Where to chose sequest or no-sequel database depends on the type of data, application and the useCase. It's purely developer driven.
+ Where to chose sequesl or no-sequel database depends on the type of data, application and the useCase. It's purely developer driven.
  Version of the MySQL to be installed is also an input from the developer.
 ```
 
