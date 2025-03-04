@@ -6,7 +6,7 @@ Expense is a 3 tier web application used to list down our daily expenses and thi
     * Backend  :    Developed by using NodeJS 
     * DB       :    MySQL 
 
-Expected applicaiton is designed to be running on AWS Cloud in N.Virginia Region and ensure you deploy all of them on the top of the below AMI
+Expected applicaiton is designed to be running on AWS Cloud in N.Virginia Region and ensure you deploy all of them on the top of the below AMI ( Which works without Key Pair )
 
 ```
     AMI To Use  : DevOps-LabImage-RHEL9
